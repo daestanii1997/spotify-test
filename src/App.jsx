@@ -71,7 +71,7 @@ const App = () => {
     const params = new URLSearchParams();
     params.append("client_id", clientId);
     params.append("response_type", "code");
-    params.append("redirect_uri", "https://dae-spotify-test.netlify.app/callback");
+    params.append("redirect_uri", "http://localhost:5173/callback");
     params.append(
       "scope",
       "user-read-private user-read-email playlist-modify-public playlist-modify-private"
