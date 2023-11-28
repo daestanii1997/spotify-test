@@ -10,7 +10,7 @@ import { PropTypes } from 'prop-types';
 const App = () => {
   
   console.log('RENDERING APP.JS');
-  console.log(test)
+  console.log('test')
   
   const spotify = Credentials();  
   const clientId = "b59cdff7fd2249bc9e1c068238e2f281";
